@@ -54,6 +54,153 @@ body a {
   }
 }
 
+footer {
+  padding-top: 6rem;
+}
+
+footer .line {
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  width: 90%;
+  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.3) 1px, transparent 5px);
+  background-size: 100% 12px;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+}
+
+footer .section1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bad Script", cursive;
+}
+
+footer .section1 p {
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+footer .section1 a {
+  cursor: pointer;
+}
+
+footer .section1 .btn-foot {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: black;
+  background-color: #fff;
+  font-family: "Bad Script", cursive;
+  padding: .5rem 2.7rem;
+}
+
+footer .section1 .btn-foot:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+footer .line-reverse {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 90%;
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.3) 1px, transparent 5px);
+  background-size: 100% 12px;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+}
+
+footer .section2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  width: 90%;
+  grid-column-gap: 3rem;
+}
+
+footer .section2 .col-sec2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+  background-image: linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0);
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
+  animation: map 13s infinite normal;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+footer .section2 .col-sec2:hover {
+  animation-play-state: running;
+}
+
+footer .section2 .col-sec2 i {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer .section2 .col-sec2 p {
+  font-size: 1.1rem;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+footer .section3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  margin: 3rem auto;
+  width: 90%;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0);
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
+  animation: map 13s infinite normal;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+footer .section3:hover {
+  animation-play-state: running;
+}
+
+footer .section3 input {
+  width: 50rem;
+  padding: 0 3rem;
+}
+
+footer .section4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3rem auto;
+  width: 90%;
+  font-size: 0.9rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+}
+
+footer .section4 .col-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer .section4 .col-left p, footer .section4 .col-left a {
+  padding-right: 3rem;
+}
+
+footer .section4 .col-left a {
+  text-decoration: underline;
+}
+
 .page-one {
   display: grid;
   grid-template-columns: auto repeat(3, 3vw);
@@ -341,149 +488,21 @@ body a {
   width: 100%;
 }
 
-footer {
-  padding-top: 6rem;
-}
-
-footer .line {
-  padding-bottom: 1rem;
-  margin: 0 auto;
-  width: 90%;
-  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.3) 1px, transparent 5px);
-  background-size: 100% 12px;
-  background-repeat: repeat-x;
-  background-position: 0 0;
-}
-
-footer .section1 {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  height: 15rem;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-family: "Bad Script", cursive;
-}
-
-footer .section1 p {
-  margin: 0;
-  font-size: 3.5rem;
-}
-
-footer .section1 a {
-  cursor: pointer;
-}
-
-footer .section1 .btn-foot {
-  cursor: pointer;
-  font-size: 1.2rem;
-  color: black;
-  background-color: #fff;
-  font-family: "Bad Script", cursive;
-  padding: .5rem 2.7rem;
-}
-
-footer .section1 .btn-foot:hover {
-  color: #fff;
-  background-color: #000;
-}
-
-footer .line-reverse {
-  padding: 2rem;
-  margin: 0 auto;
-  width: 90%;
-  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.3) 1px, transparent 5px);
-  background-size: 100% 12px;
-  background-repeat: repeat-x;
-  background-position: 0 0;
-}
-
-footer .section2 {
+.change-page-two {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0 auto;
-  width: 90%;
-  grid-column-gap: 3rem;
+  grid-template-columns: 3vw auto repeat(2, 3vw);
+  cursor: pointer;
 }
 
-footer .section2 .col-sec2 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 3rem 0;
-  background-image: linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0);
-  background-position: 0 0, 0 100%, 0 0, 100% 0;
-  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-  background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
-  animation: map 13s infinite normal;
-  animation-timing-function: linear;
-  animation-play-state: paused;
+.change-page-two .pg1 {
+  visibility: hidden;
 }
 
-footer .section2 .col-sec2:hover {
-  animation-play-state: running;
+.change-page-two .icon-one {
+  margin-left: .15vw;
+  visibility: visible;
 }
 
-footer .section2 .col-sec2 i {
-  font-size: 2rem;
-  padding-bottom: 1rem;
-}
-
-footer .section2 .col-sec2 p {
-  font-size: 1.1rem;
-  font-family: "Nanum Gothic Coding", monospace;
-}
-
-footer .section3 {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 4rem;
-  margin: 3rem auto;
-  width: 90%;
-  font-family: "Nanum Gothic Coding", monospace;
-  font-size: 1.4rem;
-  font-weight: bold;
-  background-image: linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(90deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0), linear-gradient(180deg, #000 50%, transparent 0);
-  background-position: 0 0, 0 100%, 0 0, 100% 0;
-  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-  background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
-  animation: map 13s infinite normal;
-  animation-timing-function: linear;
-  animation-play-state: paused;
-}
-
-footer .section3:hover {
-  animation-play-state: running;
-}
-
-footer .section3 input {
-  width: 50rem;
-  padding: 0 3rem;
-}
-
-footer .section4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 3rem auto;
-  width: 90%;
-  font-size: 0.9rem;
-  font-family: "Nanum Gothic", sans-serif;
-  font-weight: bold;
-}
-
-footer .section4 .col-left {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-footer .section4 .col-left p, footer .section4 .col-left a {
-  padding-right: 3rem;
-}
-
-footer .section4 .col-left a {
-  text-decoration: underline;
+.page-two {
+  background-color: yellow;
 }
